@@ -1,17 +1,22 @@
 <% if flash[:notice] %>
-  <p><%= flash[:notice] %></p>
+  <div class = "flash">
+    <%= flash[:notice] %>
+  </div>
 <% end %>
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
+<div class = "cover">
+  <div class = "text">
+    <p>
+      <strong>Title:</strong>
+      <%= @book.title %>
+    </p>
 
-<p>
-  <strong>Body:</strong>
-  <%= @book.body %>
-</p>
+    <p>
+      <strong>Body:</strong>
+      <%= @book.body %>
+    </p>
+  </div>
 
-
-<%= link_to "Edit", edit_book_path(@book) %>
-<a class="back" href="/books">Back</a>
+  <%= link_to "Edit", edit_book_path(@book) %>|
+  <a class="back" href="/books">Back</a>
+</div>

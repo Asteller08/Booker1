@@ -19,3 +19,67 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a{
+  color: #6c6b6b;
+}
+
+strong{
+  color: black;
+}
+
+li{
+  margin: 0 30px;
+}
+
+.flash{
+  color: #33CC99;
+}
+
+.alert{
+  margin: 5px 0;
+  color: black;
+  border: solid 3px #993333;
+  background: #FFF5EE
+}
+
+.alert-title{
+  color: white;
+  background: #993333;
+}
+
+.box{
+  padding: 0 10px;
+}
+
+.cover{
+  margin: 30px;
+  line-height: 300%
+}
+
+.text{
+  margin:0 40px;
+  color: #6c6b6b;
+}
+
+.tables{
+  margin: 30px;
+}
+
+th{
+  padding: 5px 100px;
+}
+
+.new{
+  margin: 30px;
+}
+
+.edit-text{
+  margin: 30px;
+  line-height: 200%
+}
+
+.edit-text-box{
+  line-height: 20px;
+  margin: 20px 0;
+}
